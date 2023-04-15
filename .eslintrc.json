@@ -12,7 +12,8 @@
         "ecmaVersion": "latest"
     },
     "rules": {
-        "no-console":"off"
-    },
-    "import/no-extraneous-dependencies": ["error", {"devDependencies": true}]
+        "no-console":"off",
+        "no-underscore-dangle": "off",
+        "max-len":"off"
+    }
 }
